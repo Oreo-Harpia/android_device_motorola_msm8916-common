@@ -88,7 +88,7 @@ PRODUCT_PACKAGES += \
     libshim_atomic \
     libc_util \
     libshims_camera \
-    libshims_sensorlistener
+    libshims_sensorlistener \
 
 # Display
 PRODUCT_PACKAGES += \
