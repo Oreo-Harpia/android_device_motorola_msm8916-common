@@ -232,14 +232,14 @@ bin/time_daemon
 vendor/lib/libtime_genoff.so
 vendor/lib/libTimeService.so
 
-# Venus (media) firmware
-etc/firmware/venus.b00
-etc/firmware/venus.b01
-etc/firmware/venus.b02
-etc/firmware/venus.b03
-etc/firmware/venus.b04
-etc/firmware/venus.mbn
-etc/firmware/venus.mdt
+# Venus (media) firmware - from MiUI V9.2.5.0.LHJMIEK
+vendor/etc/firmware/venus.b00|d888c8cbd453d424cf4d8c0572f62ef6bd40aa5a
+vendor/etc/firmware/venus.b01|b11584a9fa5af3c36cdc23b4698f7730056d1dbf
+vendor/etc/firmware/venus.b02|44f9443214fb8b5b6b4b09dc41c2debad2512d46
+vendor/etc/firmware/venus.b03|314148a6e9eab888e2310272f34510b1e2c1a1cf
+vendor/etc/firmware/venus.b04|c1756e0567d10a1173f481cd367ff4637b2dd77f
+vendor/etc/firmware/venus.mbn|1da59f718411842cb94068827506fe915cdafd92
+vendor/etc/firmware/venus.mdt|7c615327cb919180477cf9a1dca4e26f7768e8ce
 
 # Haxx
 lib/libprotobuf-cpp-N.so|f8b1e1d088cd4707393a1fad233f8b06116bc666
