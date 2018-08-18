@@ -157,6 +157,11 @@ TARGET_LD_SHIM_LIBS := \
     /system/lib/libfacenet.so|libprotobuf-cpp-haxx.so \
     /system/lib/libmdmcutback.so|libqsap_shim.so
 
+# Power
+TARGET_HAS_NO_WIFI_STATS := true
+TARGET_USES_INTERACTION_BOOST := true
+TARGET_HAS_LEGACY_POWER_STATS := true
+
 # Wifi
 BOARD_HAS_QCOM_WLAN := true
 BOARD_WLAN_DEVICE := qcwcn
